@@ -9,7 +9,7 @@ def quits(*args):
 
 
 def clock_time():
-    # et the current time
+    # Get the current time
     time = datetime.datetime.now()
     # Format the time
     time = time.strftime("%H:%M:%S")

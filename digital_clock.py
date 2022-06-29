@@ -1,7 +1,6 @@
 from tkinter import *
 from tkinter import font,  ttk
 import datetime
-# import time
 
 
 def quits(*args):
@@ -20,6 +19,7 @@ def clock_time():
 
 
 root = Tk()
+root.title("Digital Clock")
 root.attributes("-fullscreen", False)
 
 # Configure the root window
